@@ -1,6 +1,6 @@
 # 🧙‍♂️ DirListingDumper
 
-## Gest started
+## 🕵️‍♂️ Get Started
 
 ```bash
 pip3 install -r requirements.txt
