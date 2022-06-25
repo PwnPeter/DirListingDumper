@@ -121,8 +121,11 @@ if __name__ == "__main__":
     crawl_directory_listing(website)
 
     host_directory = website.replace("http://", "")
+    
+    host_directory = host_directory.split("/")[0]
 
     host_directory = host_directory.strip("/")
+
     system_path = system_path.rstrip("/")
 
     with ThreadPoolExecutor(max_workers=50) as executor:
